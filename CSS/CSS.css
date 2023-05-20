@@ -1,0 +1,144 @@
+@font-face {
+	font-family:"lato";
+	src:url("fonts/Lato-Regular.ttf");
+}
+html {
+		background-color:#04121d;
+}
+body{
+	margin:0;
+	font-family:"Lato","calibri","arial", sans-serif;
+}
+header {
+	background-color:#04121d;
+	display: flex;
+}
+main {
+	background-color:#04121d;
+}
+.img1 {
+	width: 70px;
+	height: 70px;
+}
+
+ul {
+	padding: 0;
+	text-align: center;
+}
+header nav ul {
+	margin: 0;
+}
+header nav ul ul {
+	display:none ;
+}
+
+header nav ul ul ul{
+	display:none;
+}
+header nav ul li a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin:18px;
+	display:block;
+	text-align:center;
+	font-size:1.5rem;
+	font-weight:bold;
+}
+header nav ul li:hover > ul   {
+	display: block;
+}
+
+main section article p {
+	margin: 15px;
+	font-size:1.2rem ;
+	line-height: 1.8rem;
+	color: #ffffff;
+}
+main section article p.undervalo {
+	color:#ffffff ;
+	font-size: 1.6rem;
+	text-align: center;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 1.6em;
+	color: #ffffff;
+	text-align: center;
+	padding: 0;
+}
+h2 {
+	text-transform: uppercase;
+	font-size: 1.6em;
+	color: #ffffff;
+	text-align: center;
+	padding: 0;
+}
+
+img {
+	text-decoration:none;
+	display:block;
+	width: 100%;
+}
+#resaux {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 25px;
+	text-align: right;
+}
+
+ h3 {
+	text-transform: uppercase;
+	font-size: 1.6em;
+	color: #ffffff;
+	text-align: center;
+	padding: 0;
+}
+h4 {
+	text-transform: uppercase;
+	font-size: 1.6em;
+	color: #ffffff;
+	text-align: left;
+	margin: 15px;
+}
+
+ footer {
+ 	display: flex;
+	background-color:#04121d;
+
+ }
+.copyright {
+	text-align: center;
+	margin: 15px;
+	font-size:1.2rem ;
+	line-height: 1.8rem;
+	color: #ffffff;
+}
+@media screen and (min-width: 1024px) {
+	ul li a.menu {
+		display: none;
+	} 
+	ul ul li a.menu2 {
+		display: none;
+	}
+	header nav ul ul {
+		width: 100%;
+		display: table-cell;
+	}
+
+	header nav ul ul ul{
+		width: 100%;
+	display: table-cell;
+	}
+
+
+	ul {
+		list-style: none;
+		margin: 0;
+	}
+	ul li {
+		display: table-cell;
+	}
+
+
